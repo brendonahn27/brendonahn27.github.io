@@ -3,20 +3,19 @@
 
 @import "minima";
 
-/* ===== Global background ===== */
+/* Override Minima backgrounds */
 body {
   background-color: #0f1a2b;
   color: #d6dde8;
 }
 
-/* Minima containers override body — fix them */
 .page-content,
 .site-header,
 .site-footer {
   background-color: #0f1a2b;
 }
 
-/* Text colors */
+/* Text */
 h1, h2, h3 {
   color: #e6edf5;
 }
@@ -33,19 +32,13 @@ a:hover {
   color: #b6d9ea;
 }
 
-/* ===== Header title ===== */
-.site-title {
-  font-weight: 800;
-}
-
-/* ===== Layout grid ===== */
+/* Layout */
 .page-content .wrapper {
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 2rem;
 }
 
-/* ===== Sidebar ===== */
 .sidebar ul {
   list-style: none;
   padding-left: 0;
