@@ -3,62 +3,31 @@
 
 @import "minima";
 
-/* Global colors */
 body {
-  background-color: #0f1a2b; /* deep dark blue */
-  color: #d6dde8; /* soft light gray-blue */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0f1a2b;
+  color: #d6dde8;
 }
 
-/* Links */
-a {
-  color: #8fbcd4;
-}
-
-a:hover {
-  color: #b6d9ea;
-}
-
-/* Headings */
 h1, h2, h3 {
   color: #e6edf5;
 }
 
-.site-header {
-  border-bottom: none;
+a {
+  color: #8fbcd4;
+}
+a:hover {
+  color: #b6d9ea;
 }
 
-.site-title {
-  font-weight: 800;
-  font-size: 1.5rem;
-  margin-left: 0;
-}
-
-/* Layout */
-.wrapper {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 2rem;
-}
-
-/* Sidebar */
-.sidebar {
-  position: sticky;
-  top: 2rem;
-}
-
-.sidebar h3 {
-  margin-top: 0;
-}
-
-.sidebar a {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
+/* Layout grid */
 .page-content .wrapper {
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 2rem;
 }
 
+/* Sidebar */
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
