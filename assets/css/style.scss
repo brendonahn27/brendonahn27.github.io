@@ -33,3 +33,25 @@ h1, h2, h3 {
   font-size: 1.5rem;
   margin-left: 0;
 }
+
+/* Layout */
+.wrapper {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 0.5rem;
+}
